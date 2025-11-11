@@ -57,7 +57,7 @@ class ServerViewController extends Controller
 
         // Jika bukan user id 1 dan bukan pemilik server -> tolak
         if ($user->id !== 1 && $server->owner_id !== $user->id) {
-            abort(403, 'Anda tidak memiliki izin untuk mengakses server ini.');
+            abort(403, '𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗔𝗟 𝗟𝗨𝗙𝗙𝗬 t.me/alluffystore.');
         }
     }
 
