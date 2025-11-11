@@ -48,7 +48,7 @@ class ServerTransferController extends Controller
     {
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Anda tidak memiliki izin untuk mentransfer server.');
+            abort(403, '𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗔𝗟 𝗟𝗨𝗙𝗙𝗬 t.me/alluffystore.');
         }
     }
 
