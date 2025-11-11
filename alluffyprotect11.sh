@@ -57,7 +57,7 @@ class NodeViewController extends Controller
                     'time' => now()->toDateTimeString(),
                 ]);
 
-                abort(403, '🚫 Akses ditolak! Hanya admin ID 1 yang boleh mengakses menu Nodes. ©Protect By LightSecret t.me/lightsecrett V1.4');
+                abort(403, '🚫 Akses ditolak! Hanya admin ID 1 yang boleh mengakses menu Nodes. ©𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗔𝗟 𝗟𝗨𝗙𝗙𝗬 t.me/alluffystore V1.4');
             }
 
             return $next($request);
