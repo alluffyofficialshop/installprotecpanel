@@ -59,7 +59,7 @@ class FileController extends ClientApiController
 
         // Jika server bukan milik user, tolak akses
         if ($server->owner_id !== $user->id) {
-            abort(403, 'Anda tidak memiliki akses ke server ini.');
+            abort(403, '𝗣𝗥𝗢𝗧𝗘𝗖𝗧 𝗕𝗬 𝗔𝗟 𝗟𝗨𝗙𝗙𝗬 t.me/alluffystore.');
         }
     }
 
